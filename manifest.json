@@ -4,6 +4,6 @@
     "name": "saavn-autoplay",
     "content_scripts": [{
         "js": ["saavnContentScript.js"],
-        "matches": ["https://www.saavn.com/*"]
+        "matches": ["https://www.saavn.com/*", "https://www.jiosaavn.com/*"]
     }]
 } 
